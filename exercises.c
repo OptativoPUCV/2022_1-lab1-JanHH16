@@ -109,7 +109,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-   return 0;
+   return v -> datos[i];
 }
 
 /*
@@ -130,7 +130,7 @@ void sumaV(Vector * a, Vector * b, Vector * c)
 /*
 Ejercicio 8.
 Use las operaciones implementadas de vectores para 
-sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
+sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.  
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c)
 {
