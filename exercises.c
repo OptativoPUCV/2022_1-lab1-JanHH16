@@ -38,8 +38,15 @@ arreglo a y almacena el resultado en *suma.
 Utilice la función sumaN.
 */
 
-void sumaNultimos(int a[], int n, int m, int * suma) {
-
+void sumaNultimos(int a[], int n, int m, int * suma) 
+{
+   int nUltimos;
+   nUltimos = n - m;
+   int sumaTotal;
+   sumaTotal = sumaN(a,n);
+   int sumaParcial;
+   sumaParcial = sumaN(a,nUltimos);
+   *suma = sumaTotal - sumaParcial;
 }
 
 /*
