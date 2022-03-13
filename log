@@ -63,3 +63,14 @@ do., 13 de mar. de 2022 16:49:40:
  tests:  3|4
 total_score: 30/70
 45225d8
+do., 13 de mar. de 2022 16:51:26: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:91:11: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    return n;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c0fc339
