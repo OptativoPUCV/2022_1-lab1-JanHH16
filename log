@@ -40,3 +40,9 @@ exercises.c:90:38: error: 'nV' is used uninitialized in this function [-Werror=u
 cc1.exe: all warnings being treated as errors
 Compilation failed
 65a3501
+do., 13 de mar. de 2022 16:16:32: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+2f30441
