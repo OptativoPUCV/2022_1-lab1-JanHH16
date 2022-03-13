@@ -11,3 +11,9 @@ do., 13 de mar. de 2022 16:05:04:
  tests:  2|5
 total_score: 20/70
 cf4131b
+do., 13 de mar. de 2022 16:06:53: 
+ exercises.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+67d148e
